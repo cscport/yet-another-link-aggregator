@@ -8,6 +8,10 @@ module.exports = function(grunt) {
           {
             src: 'node_modules/angular/angular.js',
             dest: 'public/vendor/angular.js'
+          },
+          {
+            src: 'node_modules/angular-ui-router/release/angular-ui-router.js',
+            dest: 'public/vendor/angular-ui-router.js'
           }
         ]
       }
