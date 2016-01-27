@@ -6,19 +6,17 @@
 
   <title>Link Collect</title>
 
+  <link rel="stylesheet" href="vendor/foundation-grid.css" />
+  <link rel="stylesheet" href="css/app.css" />
+
   <script src="vendor/angular.js"></script>
   <script src="vendor/angular-ui-router.js"></script>
 
-  <script src="js/App.js"></script>
-  <script src="js/AppConfig.js"></script>
-  <script src="js/AppController.js"></script>
-
-  <script src="components/components.js"></script>
-  <script src="components/main-header/main-header.js"></script>
+  <script src="release/dev/dist.js"></script>
 </head>
 <body ng-controller="AppController">
   <main-header></main-header>
-
+  <sub-menu></sub-menu>
   <ui-view></ui-view>
 </body>
 </html>

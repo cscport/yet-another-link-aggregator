@@ -21,7 +21,7 @@
     $stateProvider
     .state('home', {
       url: '/',
-      template: '<links-page></links-page>'
+      template: '<articles-page></articles-page>'
     });
 
     $locationProvider.html5Mode(true);
