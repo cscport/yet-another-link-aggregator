@@ -1,2 +1,0 @@
-# Yet Another Link Agregator
-
